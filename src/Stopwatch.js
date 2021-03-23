@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Toggle from './Toggle';
 
 
-export default class Clock extends Component {
+export default class Stopwatch extends Component {
   constructor(props) {
     super(props);
     this.state = { seconds: 0 };
